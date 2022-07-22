@@ -1,0 +1,22 @@
+.Contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 51px;
+}
+.Contact-icons {
+  display: flex;
+  margin-bottom: 26px;
+}
+.Contact-items {
+  margin-left: 17px;
+  margin-right: 17px;
+}
+.Copyright {
+  margin-bottom: 54px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #21243d;
+  text-align: center;
+}

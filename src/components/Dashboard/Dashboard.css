@@ -1,0 +1,135 @@
+.Dashboard-page {
+  width: 100vw;
+  padding-left: 148px;
+  padding-right: 148px;
+  padding-top: 31px;
+  padding-bottom: 83px;
+}
+.Dashboard-text {
+  font-weight: 400;
+  font-size: 22px;
+  color: #21243d;
+}
+.Dashboard-container {
+  width: 100%;
+}
+.Dashboard-content {
+  display: flex;
+  margin-top: 46px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.Dashboard-details {
+  width: 100%;
+}
+.Dashboard-image {
+  margin-right: 18px;
+}
+.Dashboard-heading {
+  font-weight: 700;
+  font-size: 30px;
+  color: #21243d;
+  margin-bottom: 16px;
+}
+.Dashboard-DT {
+  display: flex;
+  margin-bottom: 16px;
+}
+.Dashboard-date {
+  width: 62px;
+  font-weight: 900;
+  font-size: 18px;
+  background: #142850;
+  border-radius: 16px;
+  color: white;
+  margin-right: 26px;
+}
+.Dashboard-title {
+  font-weight: 400;
+  font-size: 20px;
+  color: #8695a4;
+}
+.Dashboard-description {
+  width: 594px;
+  max-width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  color: #21243d;
+}
+
+@media (max-width: 1024px) {
+  .Dashboard-page {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 31px;
+    padding-bottom: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Dashboard-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #21243d;
+  }
+  .Dashboard-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Dashboard-content {
+    width: 100%;
+    display: flex;
+    margin-top: 46px;
+    padding-bottom: 18px;
+    border-bottom: 3px solid #e0e0e0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Dashboard-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .Dashboard-heading {
+    font-weight: 700;
+    font-size: 30px;
+    color: #21243d;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .Dashboard-DT {
+    display: flex;
+    margin-bottom: 16px;
+    justify-content: center;
+  }
+  .Dashboard-date {
+    width: 62px;
+    font-weight: 900;
+    font-size: 16px;
+    background: #142850;
+    border-radius: 16px;
+    color: white;
+    margin-right: 26px;
+  }
+  .Dashboard-title {
+    font-weight: 400;
+    font-size: 18px;
+    color: #8695a4;
+  }
+  .Dashboard-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243d;
+    text-align: center;
+  }
+  .Dashboard-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,142 @@
+.Posts-page {
+  width: 100vw;
+  padding-left: 148px;
+  padding-right: 148px;
+  background: #edf7fa;
+  padding-bottom: 32px;
+}
+.Posts-text {
+  display: flex;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  justify-content: space-between;
+}
+
+.Recent-posts {
+  font-weight: 400;
+  font-size: 22px;
+  color: #21243d;
+}
+.View-all {
+  font-weight: 400;
+  font-size: 16px;
+  color: #00a8cc;
+}
+.View-all:hover {
+  text-decoration: underline;
+  color: #00a8cc;
+  cursor: pointer;
+}
+
+.Posts-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.Posts-content {
+  background-color: white;
+  width: 418px;
+  max-width: 100%;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  padding: 24px;
+}
+.Posts-heading {
+  font-weight: 700;
+  font-size: 26px;
+  color: #21243d;
+}
+.Posts-date-details {
+  display: flex;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.Posts-date {
+  font-weight: 400;
+  font-size: 18px;
+  color: #21243d;
+  margin-right: 26px;
+}
+.Posts-design {
+  margin-left: 26px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #21243d;
+}
+.Posts-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #21243d;
+}
+
+@media (max-width: 1024px) {
+  .Posts-page {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #edf7fa;
+    padding-bottom: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Posts-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .Recent-posts {
+    font-weight: 400;
+    font-size: 18px;
+    color: #21243d;
+  }
+  .View-all {
+    font-weight: 400;
+    font-size: 14px;
+    color: #00a8cc;
+  }
+  .View-all:hover {
+    text-decoration: underline;
+    color: #00a8cc;
+    cursor: pointer;
+  }
+
+  .Posts-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Posts-content {
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 17px;
+  }
+  .Posts-heading {
+    font-weight: 700;
+    font-size: 22px;
+    color: #21243d;
+  }
+  .Posts-date-details {
+    display: flex;
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+  .Posts-date {
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243d;
+    margin-right: 24px;
+  }
+  .Posts-design {
+    margin-left: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243d;
+  }
+  .Posts-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243d;
+  }
+}
